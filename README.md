@@ -1,6 +1,6 @@
 #未来hud
 
+EDITED DEFUALT HUD WID
 
-###FUTUREHUD v26_2_17
-
-EDITED DEFUALT HUD WIP
+###FUTUREHUD v27_2_17  
+-more edits!
