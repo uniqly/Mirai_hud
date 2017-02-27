@@ -8,18 +8,23 @@
 		"xpos_minmode"	"35"
 		"xpos_hidef"	"108"
 		"xpos_lodef"	"108"
-		"ypos"			"9"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"78"
 		"wide_minmode"	"38"
 		"wide_lodef"	"90"
-		"tall"			"33"
+		"tall"			"23"
 		"tall_minmode"	"23"
 		"tall_lodef"	"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+		"src_corner_height"	"3"
+		"src_corner_width"	"3"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+		
 
 		if_match
 		{
@@ -41,9 +46,9 @@
 		"wide_lodef"		"25"
 		"tall"				"20"
 		"tall_lodef"		"25"	
-		"visible"			"1"
+		"visible"			"0"
 		"visible_minmode"	"0"
-		"enabled"			"1"
+		"enabled"			"0"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
 		"color_active"			"TimerProgress.Active"
@@ -60,10 +65,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
+		"xpos"			"84"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"34"
+		"ypos"			"3"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -81,7 +86,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
+		"font"			"HudFontMediumSmall"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -107,14 +112,17 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
-
+		"src_corner_height"	"10"
+		"src_corner_width"	"10"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
 		if_match
 		{
 			"wide"	"0"
@@ -124,10 +132,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
+		"xpos"			"84"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"3"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -145,7 +153,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"HudFontMediumSmall"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -171,13 +179,17 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		"src_corner_height"	"10"
+		"src_corner_width"	"10"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
 
 		if_match
 		{
@@ -209,7 +221,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextSuddenDeath"
+		"font"			"HudFontMediumSmall"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -235,13 +247,17 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		"src_corner_height"	"10"
+		"src_corner_width"	"10"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
 
 		if_match
 		{
@@ -252,10 +268,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
+		"xpos"			"84"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"3"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -273,7 +289,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"HudFontMediumSmall"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
@@ -300,13 +316,17 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		"src_corner_height"	"10"
+		"src_corner_width"	"10"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
 
 		if_match
 		{
@@ -317,10 +337,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"16"
+		"xpos"			"84"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"33"
+		"ypos"			"3"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -338,7 +358,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"HudFontMediumSmall"
 		"font_minmode"	"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
@@ -365,13 +385,18 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
+		"wide"			"0"
 		"tall"			"20"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"
+		"scaleImage"		"1"	
+		"src_corner_height"	"10"
+		"src_corner_width"	"10"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+		
 		
 		if_match
 		{

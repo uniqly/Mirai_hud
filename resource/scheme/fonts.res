@@ -744,7 +744,7 @@ Scheme
 			"1"
 			{
 				"name"		"TF2"
-				"tall"		"22"
+				"tall"		"18"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
 				"weight"	"500"

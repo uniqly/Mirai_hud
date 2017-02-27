@@ -89,10 +89,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMedium"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"Gray"
 		"xpos"			"59"
 		"xpos_minmode"	"65"
 		"ypos"			"8"
@@ -110,7 +110,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontMedium"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
 		"fgcolor"		"TransparentBlack"
