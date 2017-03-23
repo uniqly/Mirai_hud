@@ -238,7 +238,7 @@
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"2"
-		"wide"				"110"
+		"wide"				"200"
 		"wide_hidef"		"300"
 		"wide_lodef"		"300"
 		"tall"				"150"
@@ -275,11 +275,11 @@
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"TanLight"
-			"xpos"			"23"
+			"xpos"			"33"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
-			"ypos"			"11"
+			"ypos"			"-4"
 			"ypos_minmode"	"6"
 			"ypos_hidef"	"15"
 			"ypos_lodef"	"18"
